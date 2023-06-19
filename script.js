@@ -1,7 +1,7 @@
 function threeSum(arr, target) {
 // write your code here
   // Sort the array in ascending order
-   arr.sort((a, b) => a - b);
+   arr.sort();
 
   let closestSum = Infinity; // Variable to store the closest sum to the target
 
